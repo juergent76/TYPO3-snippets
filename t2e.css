@@ -1,0 +1,801 @@
+@media (min-width: 992px) {
+  body {
+      padding-bottom: 360px !important;
+  
+  }
+}
+
+.navbar-custom-1 .navbar-right {
+    font-size: 18px;
+}
+.navbar-custom-1.navbar-default {
+    letter-spacing: 0.025em;
+}
+@media screen and (max-width:1199px) {
+	.navbar-custom-1 .navbar-right {
+    	font-size: 15px;
+	}
+	.navbar-custom-1.navbar-default {
+    	letter-spacing: 0.05em;
+	}	
+}
+
+
+.navbar-default.navbar-custom-1 .navbar-nav > li.active > a::before {
+    border-color: transparent transparent orange;
+}
+.navbar-custom-1.navbar-default {
+    border-bottom: 4px solid orange !important;
+}
+
+.navbar-default { background: #fff; }
+.navbar-default .navbar-brand { color: #222; }
+.navbar-default .navbar-nav > li > a { color: #222; }
+
+.navbar-default .navbar-toggle {
+    border-color: #222;
+}    
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #222;
+} 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #FF8700;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	background-color: #333;  /* #FFA500; */
+}
+
+/* Footer Sitemap - li */
+#c499 .nav > li > a {
+	padding: 5px 15px;
+}
+#c499 .nav > li:last-child > a {
+	padding: 5px 15px;
+	margin-bottom: 20px;
+}
+
+/* Page ID 228 - Webhosting Jumbotron */
+.page-228 .jumbotron {
+    margin-bottom: 20px;
+    min-height: 400px;
+    margin-top: -14px;
+    padding-top: 74px;
+    color: #fff;
+}
+.page-234 .jumbotron, .page-235 .jumbotron, .page-236 .jumbotron, .page-237 .jumbotron    {
+	margin-top: 32px !important;
+}
+.page-234 .bs-header h1, .page-235 .bs-header h1, .page-236 .bs-header h1, .page-237 .bs-header h1, .page-243 .bs-header h1  {
+	color: #fff;
+}
+#c506 h3 { margin-top: 0; }
+
+@media screen and (max-width: 767px) {
+	.page-228 .jumbotron, .page-231 .jumbotron {
+		  margin-top: 4px;
+		  min-height: 220px;
+	}
+}
+
+@media screen and (min-width: 996px) {
+  .navbar-header .navbar-brand > img {
+      height: 90px;
+    margin-top: -37px;
+    transition: all 0.3s ease 0s;
+  }
+  .navbar-default.navbar-custom-1 .navbar-nav > li > a:hover, .navbar-default.navbar-custom-1 .navbar-nav > li > a:focus, .navbar-default.navbar-custom-1 .navbar-nav > li.active > a:hover, .navbar-default.navbar-custom-1 .navbar-nav > li.active > a:focus, .navbar-default.navbar-custom-1 .navbar-brand a:hover {
+    color: #494949;
+    /*text-shadow: -1px 1px 8px rgb(73, 73, 73), 1px -1px 8px rgb(255, 255, 255);*/
+  }
+  /* Page ID 228 - Webhosting Jumbotron */
+  .page-228 .jumbotron, .page-231 .jumbotron {
+	  margin-top: 32px;
+	}
+  .page-228 #c505 {
+		margin-top: -121px;
+	}
+
+   .page-231 .jumbotron {
+	   background: transparent url("/fileadmin/Resources/Public/Images/websites-jumbotron-1920x200.jpg") no-repeat scroll center top / cover;
+   }
+		
+}
+@media screen and (max-width: 995px) {
+  .navbar-header .navbar-brand img {
+    height: 40px !important;
+    margin-top: -10px !important;
+  }
+}
+//header.col-md-12 { margin-top: 50px; }
+.container.page-container { margin-top: 32px; }
+
+.page-header {
+  margin-top: 0;
+}
+.page-header h1 {
+  margin-top: 10px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+/* #########   STARTSEITE   ########## */
+#c488 h2.csc-firstHeader { margin-top: 0; }
+#c489 h2.csc-firstHeader { font-size: 30px; }
+#c490 h3.csc-firstHeader, #c491 h3.csc-firstHeader, #c492 h3.csc-firstHeader, #c493 h3.csc-firstHeader {
+  font-size: 30px;
+  padding-bottom: 9.5px;
+  margin: 42px 0px 21px;
+  border-bottom: 1px solid #E6E6E6;
+} 
+
+.btn-lg, .btn-group-lg > .btn {
+    white-space: normal;
+    width: 100%;
+}
+
+/* ########## NEWS ########## */
+.thumbnail { 
+	min-height: 430px;
+	transition: all .25s;
+}
+
+.news-single .teaser-text {
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+}
+
+.news-text-wrap p {
+	font-size: 16px;	
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 15px 0px;
+    transition: all .25s;
+}
+
+.article {
+	transition: all .5s;
+}
+.article:hover {
+    background-color: #f0f0f0;
+    transition: all .5s;
+}
+.news.news-single .article, .news.news-single .article:hover {
+	background-color: #fff;
+}
+
+.news .article {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    width: 88.5%;
+}
+
+.news-backlink-wrap {
+    padding: 15px;
+    background: #eaeaea;
+    width: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width:479px) {
+	.news-single .article .news-img-wrap {
+    	float: left;
+    	width: 94%;
+    	margin: 0 0 15px 0px;
+	}
+}
+
+.facebook { 
+	overflow: hidden;
+}
+
+/* NEWS Kontakt-Seite */
+/* #c574 .news .news-list-view .col-md-4 {
+	width: 100%;
+} */
+#c574 .news .news-list-view .col-md-4 .thumbnail {
+	min-height: auto;
+}
+#c574 .news .news-list-view .thumbnail h3 {
+	font-size: 22px;
+}
+
+/* NEWS Archiv-Seite */
+#c577 .news .article {
+	padding: 15px;
+    margin-bottom: 22px;
+    border: 1px solid silver;
+    width: 49%;
+    float: left;
+    margin-left: 2%;
+    min-height: 265px;
+    background-color: #f0f0f0;
+}
+
+#c577 .news .article:hover {
+    background-color: #fff;
+    transition: all .5s;
+}
+
+#c577 .article:nth-child(2n-1) {
+	margin-left: 0;
+}
+
+@media screen and (min-width:820px) and (max-width:1199px) {
+	#c577 .article h3 a {
+		font-size: 22px;
+	}
+	#c577 .news .article {
+		min-height: 280px;
+	}
+	#c577 .news .footer {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width:819px) {
+	#c577 .news .article {
+		padding: 15px;
+		margin-bottom: 22px;
+		border: 1px solid silver;
+		width: 100%;
+		float: none;
+		margin-left: 0%;
+		min-height: 265px;
+		background: #fafafa;
+    }
+    #c577 .news .footer {
+	    font-size: 12px;
+    }
+    
+}
+
+
+/* ########## FOOTER ########## */
+footer#page-footer.sticky-footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: auto;
+}
+
+@media screen and (min-width:992px) {
+  footer#page-footer.sticky-footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+  }
+}
+
+
+/* Navigation NEU ~ WebSailor */
+ul.main-nav > li:hover > a {
+  color: green;
+  text-shadow: -1px 1px 8px orange !important;
+}
+
+ul.main-nav li.active a {
+  color: orange;
+}
+
+.navbar-default.navbar-custom-1 .navbar-nav > li > a:hover,
+.navbar-default.navbar-custom-1 .navbar-nav > li > a:focus,
+.navbar-default.navbar-custom-1 .navbar-nav > li.active > a:hover,
+.navbar-default.navbar-custom-1 .navbar-nav > li.active > a:focus,
+.navbar-default.navbar-custom-1 .navbar-brand a:hover {
+  text-shadow: -1px 1px 8px orange !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: orange !important;
+}
+
+.newsletter-entry {
+	width: 100%;
+	height: 78px;
+	background: #31B0D5;
+	margin-left: -15px;
+}
+@media screen and (max-width:1199px) {
+	.newsletter-entry {
+		height: 100px;
+	}
+}
+@media screen and (max-width:992px) {
+	.newsletter-entry {
+		height: 228px;
+	}
+}
+
+.typo3-feedit-element {
+	outline: 0px none !important;
+}
+
+label {
+    padding-top: 11px;
+    margin-bottom: 0;
+    width: 16.66%;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@media screen and (min-width:993px) {
+	label {
+		text-align: left;
+		padding-left: 0;
+	}
+}
+
+
+label.col-sm-2.control-label.powermail_label {
+	width: 82%;
+	white-space: nowrap;
+	text-align: left;
+}
+
+select {
+	width: 25%;
+	font-size: 16px !important;
+	position: relative;
+	min-height: 1px;
+}
+
+#powermail_fieldwrap_11, #powermail_fieldwrap_13, #powermail_fieldwrap_25, #powermail_fieldwrap_28,
+#powermail_fieldwrap_53, #powermail_fieldwrap_61, #powermail_fieldwrap_81, #powermail_fieldwrap_83,
+#powermail_fieldwrap_84, #powermail_fieldwrap_85 {
+	margin-bottom: 15px;
+}
+#powermail_fieldwrap_26 {
+    margin-top: 15px;
+}
+input[type="reset"] {
+	display: inline-block;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 10px 18px;
+    font-size: 15px;
+    line-height: 1.42857;
+    border-radius: 0px;
+    -moz-user-select: none;
+    color: #666;
+	background-color: #EAEAEA;
+	border-color: #EAEAEA;
+} 
+
+ul.powermail_tabmenu {
+	width: 100%;
+	border-bottom: 1px solid orange;
+	background: transparent; /*#0072BC;*/
+	height: 50px;
+}
+ul.powermail_tabmenu > li {
+	padding: 13px 10px;
+	border-top: 1px solid #0072BC;
+	list-style: none;
+	list-style-position: outside;
+	width: 22%;
+	float:left;
+	background: rgba(0, 114, 188, 0.7) none repeat scroll 0% 0%;
+	margin-top:	5px;
+	border-left: 1px solid white;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	color: #eaeaea;
+	text-align: center;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-ms-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+	transition: background 250ms ease-in-out;
+	}
+ul.powermail_tabmenu > li:first-child {
+	margin-left: 15px;
+	border-left: 1px solid #0072BC;;
+}
+ul.powermail_tabmenu > li:last-child {
+	margin-right: 15px;
+	border-right: 1px solid #0072BC;
+}
+ul.powermail_tabmenu > li:hover {
+	background: rgba(0, 114, 188, 0.95);
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: background 250ms ease-in-out;
+	-moz-transition: background 250ms ease-in-out;
+	-ms-transition: background 250ms ease-in-out;
+	-o-transition: background 250ms ease-in-out;
+	transition: background 250ms ease-in-out;
+}
+
+@media screen and (max-width:767px) {
+	ul.powermail_tabmenu {
+    	height: auto;
+	}
+	ul.powermail_tabmenu > li:first-child {
+    	margin-left: 0px;
+		border-left: 0px;
+	}
+	ul.powermail_tabmenu > li {
+		width: 100%;
+    	margin-top: 0px;
+    	border-top: 1px solid white;
+		border-left: 0px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		float: none;
+	}
+	ul.powermail_tabmenu > li:last-child {
+    	margin-right: 0px;
+		border-right: 0px;
+	}
+}
+
+#powermail_fieldwrap_26 {
+    margin-top: 15px;
+    width: 24%;
+    float: right;
+    text-align: right;
+}
+input#powermail_field_domain .form-control {
+	width: 91px;
+	margin-left: 9%;	
+}
+
+#powermail_fieldwrap_81 label.powermail_label,
+#powermail_fieldwrap_83 label.powermail_label,
+#powermail_fieldwrap_84 label.powermail_label,
+#powermail_fieldwrap_85 label.powermail_label,
+#powermail_fieldwrap_97 label.powermail_label {
+   	width: 100%;
+   	text-align: left;
+   	padding-left: 0;
+}
+
+#powermail_fieldwrap_98 {
+    margin-right: 1%;
+}
+
+.parsley-required, .parsley-custom-error-message {
+	color: red;
+}
+
+@media screen and (max-width:992px) {
+	#powermail_fieldwrap_28 label.powermail_label,
+	#powermail_fieldwrap_13 label.powermail_label,
+	#powermail_fieldwrap_49 label.powermail_label,
+	#powermail_fieldwrap_11 label.powermail_label,
+	#powermail_fieldwrap_25 label.powermail_label,
+	#powermail_fieldwrap_53 label.powermail_label,
+	#powermail_fieldwrap_61 label.powermail_label, /* Bedarfsanalyse powermail */
+	#powermail_fieldwrap_81 label.powermail_label,
+	#powermail_fieldwrap_83 label.powermail_label,
+	#powermail_fieldwrap_84 label.powermail_label,
+	#powermail_fieldwrap_85 label.powermail_label,
+	#powermail_fieldwrap_97 label.powermail_label,
+	#powermail_fieldwrap_101 label.powermail_label,
+	#powermail_fieldwrap_111 label.powermail_label {
+    	width: 100%;
+    	text-align: left;
+    	padding-left: 0;
+	}
+	#powermail_fieldwrap_28 select#powermail_field_software, #powermail_fieldwrap_13 select#powermail_field_firmaorganisation,
+	#powermail_fieldwrap_11 select#powermail_field_firma_anrede, #powermail_fieldwrap_25 select#powermail_field_land,
+	#powermail_fieldwrap_53 select#powermail_field_ansprechpartner_anrede, #powermail_fieldwrap_61 select#powermail_field_ansprechpartner_land,
+	#powermail_fieldwrap_101 select#powermail_field_webseitenziel, #powermail_fieldwrap_111 select#powermail_field_anrede {
+		width: 100%;
+	}
+	#powermail_fieldwrap_49 label.powermail_label {
+		padding-left: 15px;
+	}
+	#powermail_fieldwrap_22 label, #powermail_fieldwrap_12 label, #powermail_fieldwrap_25 label, #powermail_fieldwrap_54 label,
+	#powermail_fieldwrap_58 label {
+		width: 100%;
+	}
+}
+
+#powermail_fieldwrap_47, #powermail_fieldwrap_66 {
+    float: left;
+    margin-top: 15px;
+    text-align: left;
+    width: 92%;
+}
+.powermail_fieldwrap.powermail_tab_navigation {
+    width: 8%;
+    float: left;
+    margin-top: 15px !important;
+    padding: 0px 15px !important;
+    background: #2780E3 !important;
+    text-align: center;
+    font-size: 30px !important;
+    color: white !important;
+    text-decoration: none;
+}
+.powermail_tab_navigation:hover {
+    color: #FFF;
+    background-color: #1967BE;
+    border-color: #1862B5;
+}
+
+/* back - forward button */
+.powermail_fieldwrap.powermail_tab_navigation a {
+    font-size: 30px !important;
+    color: white !important;
+    text-decoration: none;
+}
+.powermail_fieldwrap.powermail_tab_navigation a:first-child {
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+.powermail_fieldwrap.powermail_tab_navigation a:last-child {
+    padding-left: 15px;
+}
+
+.powermail_fieldset_3 .powermail_fieldwrap.powermail_tab_navigation {
+	float: right !important;			
+	text-align: center;
+	width: auto;
+}
+
+.powermail_fieldset_3 .powermail_fieldwrap.powermail_tab_navigation a:first-child,
+.powermail_fieldset_7 .powermail_fieldwrap.powermail_tab_navigation a:first-child {
+	border-right: none;
+}
+
+.powermail_check_outer {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.powermail_check_inner .powermail_check_inner_1 {
+	width: 100%;
+	padding-left: 17% !important;
+}
+.powermail_check_inner.powermail_check_inner_1 label {
+    width: 50%;
+    text-align: left;
+    padding-left: 5px;
+}
+#powermail_field_ansprechpartner_1 {
+    margin-left: 17% !important;
+}
+@media screen and (max-width:992px) {
+	#powermail_field_ansprechpartner_1 {
+    	margin-left: 3% !important;
+	}
+	.powermail_check_inner.powermail_check_inner_1 label {
+    	width: 90%;
+		font-size: 17px;
+	}
+	.powermail_fieldset_3 .powermail_fieldwrap.powermail_tab_navigation {
+		margin-bottom: 20px;
+	}
+	.powermail_fieldwrap.powermail_tab_navigation {
+    	width: auto;
+    	float: right;
+    	margin-bottom: 20px;
+    }
+	#powermail_fieldwrap_47, #powermail_fieldwrap_66 {
+	    width: 50%;
+	    margin-bottom: 20px;
+	}
+	.powermail_fieldset.powermail_fieldset_7 .powermail_fieldwrap.powermail_tab_navigation {
+		float:left;
+	}
+}
+
+#powermail_fieldwrap_48 .powermail_label.powermail_check_legend {
+	display: none;
+}
+
+.powermail_radio_inner.powermail_radio_inner_1, .powermail_radio_inner.powermail_radio_inner_2 {
+	width: 50%;
+	float: left;
+}
+
+#powermail_fieldwrap_68 { margin-bottom: 15px; }
+#powermail_fieldwrap_68 .powermail_radio_inner.powermail_radio_inner_1 label, #powermail_fieldwrap_68 .powermail_radio_inner.powermail_radio_inner_2 label {
+	width: 48%;
+	text-align: left;
+}
+
+@media screen and (max-width:992px) {
+	.powermail_radio_inner.powermail_radio_inner_1, .powermail_radio_inner.powermail_radio_inner_2 {
+		width: 100%;
+	}
+	#powermail_fieldwrap_68 .powermail_radio_inner.powermail_radio_inner_1 label, #powermail_fieldwrap_68 .powermail_radio_inner.powermail_radio_inner_2 label {
+		width: 90%;
+		padding-right: 0;
+	}
+}
+
+#powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_1, #powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_2,
+#powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_3, #powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_4 {
+	width: 98%;
+	float: none;
+}
+#powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_1 label, #powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_2 label,
+#powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_3 label, #powermail_fieldwrap_77 .powermail_radio_inner.powermail_radio_inner_4 label {
+	width: 88%;
+	text-align: left;
+}
+
+#powermail_fieldwrap_77 .powermail_radio_outer {
+    padding-left: 9% !important;
+}
+#powermail_fieldwrap_77 {
+	margin-bottom: 21px;
+}
+
+#powermail_fieldwrap_70 {
+    width: 96%;
+    margin: 35px 0;
+    border: 1px solid;
+    padding: 0% 2%;
+    height: 280px;
+    overflow-y: scroll;
+    margin-top: 35px;
+}
+#powermail_fieldwrap_70::before {
+	content: "AGB Webhosting";
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+#powermail_fieldwrap_71 .powermail_check_inner.powermail_check_inner_1 label {
+	width: 88%;
+	text-align: left;
+}
+
+#powermail_fieldwrap_72 {
+	width: auto;
+	text-align: right;
+	float:right;
+	margin-top: 15px;
+}
+
+
+/* dialog-Mail Anmeldung Startseite */
+.newsletter-body {
+	width: 100%;
+	background: red;
+	box-sizing: border-box;
+}
+.field.wrapper_1, .field.wrapper_2, .field.wrapper_3 {
+	width: 25%;
+	float: left;
+}
+
+
+/* Formular Bedarfsanalyse Website */
+@media screen and (max-width:640px) {
+	
+	#c540 .powermail_fieldset_9 select {
+    	width: 100%;
+    }
+	#c540 .powermail_fieldwrap_91 .col-sm-2.control-label.powermail_label {
+		white-space: normal;
+	}
+	#c540 #powermail_fieldwrap_98 .col-sm-offset-2 {
+		margin-left: 1%;
+		margin-right: 1%;
+	}  
+	#c540 #powermail_fieldwrap_98 .col-sm-10 {
+		width: 98%;
+	}
+	#c540 #powermail_fieldwrap_98 .btn {
+		font-size: 19px;
+		white-space: normal;
+	}
+	#c540 h1 {
+		font-size: 32px;
+	}
+	#c540 .powermail_radio_inner.powermail_radio_inner_1,
+	#c540 .powermail_radio_inner.powermail_radio_inner_2 {
+		width: 50%;
+		margin-bottom: 25px;
+	}
+	#c540 #powermail_fieldwrap_87 .powermail_check_inner.powermail_check_inner_1 label,
+	#c540 #powermail_fieldwrap_87 .powermail_check_inner.powermail_check_inner_2 label,
+	#c540 #powermail_fieldwrap_87 .powermail_check_inner.powermail_check_inner_3 label,
+	#c540 #powermail_fieldwrap_87 .powermail_check_inner.powermail_check_inner_4 label {
+		width: 90%;
+		padding-left: 5px;
+	}
+	#c540 #powermail_fieldwrap_87 .powermail_check_inner.powermail_check_inner_2 label {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+}
+
+/* Formular SEO-Erstanalyse */
+#powermail_fieldwrap_101 {
+	margin-bottom: 20px;
+}
+
+#c544 .nav-tabs > li {
+	font-size: 20px;
+}
+@media screen and (max-width:1200px) {
+	#c544 .nav-tabs > li {
+		font-size: 15px;
+	}
+}
+
+#c562 h3, #c564 h3, #c569 h3 {
+	margin-top: 0;
+}
+
+#c569 .csc-sitemap .tree li {
+	font-size: 18px;
+}
+
+#c570 .tx-powermail .page-header {
+	display: none;
+}
+
+#c573 h3 {
+	font-size: 20px;
+}
+
+#c573 .csc-textpic-text h3 {
+	-moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto; 
+}
+
+#c575.alert.alert-success {
+	padding: 0 15px 15px;
+}
+
+.text-success {
+	color: #3FB618;
+}
+.text-info {
+	
+}
+.text-danger {
+	
+}
+
+/* VIDEO BUTTON */
+.vjs-default-skin .vjs-big-play-button {
+	left: 50%;
+	margin-left: -2.1em;
+	top: 50%;
+	margin-top: -1.4000000000000001em;
+    background-color: rgba(239, 16, 16, .95);
+    border: none;
+}
+.vjs-default-skin {
+    color: #fff;
+}
+
+arrow-left {
+}
+.arrow-right {
+}
